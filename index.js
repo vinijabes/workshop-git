@@ -1,3 +1,4 @@
+//MINICURSO DE GIT HUB
 module.exports = class Calculator{
 
 	print(a,b){
@@ -5,5 +6,7 @@ module.exports = class Calculator{
 	}
 
 	// implementar as outras funções aqui
+	subtract(a,b){
+		return (a - b);
+	}
 }
-
